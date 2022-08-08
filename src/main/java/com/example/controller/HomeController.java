@@ -11,7 +11,7 @@ public class HomeController {
 
     @GetMapping
     public ModelAndView showHomePage() {
-        System.out.println("Han");
+        System.out.println("Triet");
         return new ModelAndView("/home");
     }
 }
