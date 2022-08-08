@@ -14,4 +14,8 @@ public class HomeController {
         System.out.println("Hello 14342342354");
         return new ModelAndView("/home");
     }
+
+    public void testConflict() {
+        System.out.println("To test conflict");
+    }
 }
