@@ -17,5 +17,6 @@ public class HomeController {
 
     public void testConflict() {
         System.out.println("Conflict");
+        System.out.println("To test conflict");
     }
 }
